@@ -106,7 +106,6 @@ namespace SoftMasking
         }
 
 
-
         /// <summary>
         /// Determines from where the mask image should be taken.
         /// </summary>

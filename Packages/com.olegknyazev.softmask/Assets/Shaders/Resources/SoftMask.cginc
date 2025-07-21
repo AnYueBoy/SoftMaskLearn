@@ -139,8 +139,8 @@
 # define SOFTMASK_CALCULATE_COORDS(OUT, pos)
 # define SOFTMASK_GET_MASK(IN)                 (1.0f)
 
-    inline float4 SoftMask_GetMaskTexture(float2 maskPosition) { return 1.0f; }
-    inline float SoftMask_GetMask(float2 maskPosition) { return 1.0f; }
+inline float4 SoftMask_GetMaskTexture(float2 maskPosition) { return 1.0f; }
+inline float SoftMask_GetMask(float2 maskPosition) { return 1.0f; }
 #endif
 
 #endif
